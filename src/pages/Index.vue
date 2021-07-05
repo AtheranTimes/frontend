@@ -20,8 +20,22 @@
 
 <script>
 export default {
-  metaInfo: {
-    title: 'Hello, world!'
+  metaInfo () {
+    return this.$seo({
+      title: 'My page', // Uses the titleTemplate in Gridsome config
+      description: 'My description',
+      keywords: 'one,two',
+      openGraph: {
+        title: 'My site',
+        type: 'website'
+      },
+      twitter: {
+        title: 'My site',
+        type: 'summary'
+      },
+      link: [],   // any links
+      script: []  // any scripts
+    })
   }
 }
 </script>
