@@ -15,6 +15,6 @@
   },
   "devDependencies": {
     "gridsome-plugin-tailwindcss": "^4.1.1",
-    "tailwindcss": "^2.2.4"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   }
 }
