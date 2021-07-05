@@ -5,8 +5,9 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome',
+  siteName: 'The Atheran Times',
   siteUrl: 'https://www.atherantimes.com/',
+  titleTemplate: '%s - The Atheran Times',
   plugins: [
     {
       use: "gridsome-plugin-tailwindcss",
@@ -45,6 +46,9 @@ module.exports = {
     },
     {
       use: 'gridsome-plugin-robots-txt'
+    },
+    {
+      use: 'gridsome-plugin-seo'
     }
   ],
   templates: {
