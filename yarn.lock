@@ -3044,7 +3044,7 @@ debug@^3.1.1, debug@^3.2.6:
   dependencies:
     ms "^2.1.1"
 
-debug@^4.1.0, debug@^4.1.1:
+debug@^4.1.0, debug@^4.1.1, debug@^4.2.0:
   version "4.3.2"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.2.tgz#f0a49c18ac8779e31d4a0c6029dfb76873c7428b"
   integrity sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==
@@ -4481,6 +4481,14 @@ gridsome-plugin-robots-txt@^1.0.2:
   integrity sha512-tJw0kylp4UuUKAajjSnJeUIVUKOn3f7zUC035nNkNpI98rV6a+iQs92qKJ9/honq2IzCjYIWPhxsAMrhzln+WA==
   dependencies:
     generate-robotstxt "^8.0.0"
+
+gridsome-plugin-seo@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/gridsome-plugin-seo/-/gridsome-plugin-seo-1.0.2.tgz#272a98196ffb6d03263c06152e57528abcf772c3"
+  integrity sha512-iDCbNb4F+zMvzpXPyL7NAky0s3IN52LFLI8Bysor/wtw4vFTpdAhKsa/t4efihNNIpNi9QRUiknmNC34o/6P/Q==
+  dependencies:
+    lodash "^4.17.20"
+    nuxt-seo "^1.3.1"
 
 gridsome-plugin-tailwindcss@^4.1.1:
   version "4.1.1"
@@ -6477,6 +6485,13 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
+
+nuxt-seo@^1.3.1:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/nuxt-seo/-/nuxt-seo-1.5.0.tgz#bd65d84830efd0a755d6e1c99765f5faa3d69a58"
+  integrity sha512-YIq0gSuSUpANuVn3dTCtAkq5ViJrCA1ht1/NosHQrUOtIw7T2wLPUfeW7I6gqYNsZi7FEf+CjTaH7LWfWaf5jg==
+  dependencies:
+    debug "^4.2.0"
 
 oauth-sign@~0.9.0:
   version "0.9.0"
