@@ -9,7 +9,8 @@
   "dependencies": {
     "@gridsome/plugin-sitemap": "^0.4.0",
     "@gridsome/source-ghost": "^0.4.0",
-    "gridsome": "^0.7.0"
+    "gridsome": "^0.7.0",
+    "gridsome-plugin-robots-txt": "^1.0.2"
   },
   "devDependencies": {
     "gridsome-plugin-tailwindcss": "^4.1.1",

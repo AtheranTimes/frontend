@@ -42,6 +42,9 @@ module.exports = {
           }
         }
       }
+    },
+    {
+      use: 'gridsome-plugin-robots-txt'
     }
   ],
   templates: {
